@@ -1,0 +1,38 @@
+{
+  "name": "q-ui-react",
+  "version": "0.0.1",
+  "description": "Stander React UI Components created and maintains by WoquTech",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "unpkg": "dist/q-ui-react.min.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.woqutech.com:ued/q-ui-react.git"
+  },
+  "keywords": [
+    "woqutech",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
+  ],
+  "author": "ued.woqutech.com",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  }
+}
